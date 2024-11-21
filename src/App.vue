@@ -12,7 +12,7 @@
         Register
       </router-link>
       <router-link to="/sign-in" class="nav-link" active-class="active">
-        Sing In
+        Sign In
       </router-link>
       <button @click="handleSignOut" v-if="isLoggedIn"> Sign out </button>      
     </div>

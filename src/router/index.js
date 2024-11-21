@@ -37,7 +37,7 @@ router.beforeEach((async(to, from, next) => {
             next();
         } else {
             alert("You dont have access!")
-            next("/sing-in")
+            next("/sign-in")
         }
     } else {
         next();
